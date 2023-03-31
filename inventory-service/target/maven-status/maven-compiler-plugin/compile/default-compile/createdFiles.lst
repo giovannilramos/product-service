@@ -1,0 +1,7 @@
+br\com\quaz\inventoryservice\entities\Inventory$InventoryBuilder.class
+br\com\quaz\inventoryservice\repositories\InventoryRepository.class
+br\com\quaz\inventoryservice\services\InventoryService.class
+br\com\quaz\inventoryservice\InventoryServiceApplication.class
+br\com\quaz\inventoryservice\dto\InventoryResponse.class
+br\com\quaz\inventoryservice\controller\InventoryController.class
+br\com\quaz\inventoryservice\entities\Inventory.class

@@ -1,0 +1,7 @@
+D:\projetosJava\microservices-parent\product-service\src\main\java\br\com\quaz\productservice\controller\ProductController.java
+D:\projetosJava\microservices-parent\product-service\src\main\java\br\com\quaz\productservice\services\ProductService.java
+D:\projetosJava\microservices-parent\product-service\src\main\java\br\com\quaz\productservice\entities\Product.java
+D:\projetosJava\microservices-parent\product-service\src\main\java\br\com\quaz\productservice\dto\ProductRequest.java
+D:\projetosJava\microservices-parent\product-service\src\main\java\br\com\quaz\productservice\dto\ProductResponse.java
+D:\projetosJava\microservices-parent\product-service\src\main\java\br\com\quaz\productservice\ProductServiceApplication.java
+D:\projetosJava\microservices-parent\product-service\src\main\java\br\com\quaz\productservice\repositories\ProductRepository.java

@@ -1,0 +1,8 @@
+br\com\quaz\productservice\dto\ProductResponse.class
+br\com\quaz\productservice\entities\Product.class
+br\com\quaz\productservice\ProductServiceApplication.class
+br\com\quaz\productservice\repositories\ProductRepository.class
+br\com\quaz\productservice\services\ProductService.class
+br\com\quaz\productservice\controller\ProductController.class
+br\com\quaz\productservice\dto\ProductRequest.class
+br\com\quaz\productservice\entities\Product$ProductBuilder.class

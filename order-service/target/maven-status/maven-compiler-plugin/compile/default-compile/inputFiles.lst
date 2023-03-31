@@ -1,0 +1,11 @@
+D:\projetosJava\microservices-parent\order-service\src\main\java\br\com\quaz\orderservice\OrderServiceApplication.java
+D:\projetosJava\microservices-parent\order-service\src\main\java\br\com\quaz\orderservice\config\WebClientConfig.java
+D:\projetosJava\microservices-parent\order-service\src\main\java\br\com\quaz\orderservice\dto\OrderLineItemsDto.java
+D:\projetosJava\microservices-parent\order-service\src\main\java\br\com\quaz\orderservice\entities\Order.java
+D:\projetosJava\microservices-parent\order-service\src\main\java\br\com\quaz\orderservice\controller\OrderController.java
+D:\projetosJava\microservices-parent\order-service\src\main\java\br\com\quaz\orderservice\dto\OrderRequest.java
+D:\projetosJava\microservices-parent\order-service\src\main\java\br\com\quaz\orderservice\repositories\OrderRepository.java
+D:\projetosJava\microservices-parent\order-service\src\main\java\br\com\quaz\orderservice\services\OrderService.java
+D:\projetosJava\microservices-parent\order-service\src\main\java\br\com\quaz\orderservice\dto\OrderResponse.java
+D:\projetosJava\microservices-parent\order-service\src\main\java\br\com\quaz\orderservice\entities\OrderLineItems.java
+D:\projetosJava\microservices-parent\order-service\src\main\java\br\com\quaz\orderservice\dto\InventoryResponse.java
