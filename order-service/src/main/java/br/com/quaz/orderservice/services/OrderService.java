@@ -49,7 +49,7 @@ public class OrderService {
                 .bodyToMono(InventoryResponse[].class)
                 .block();
 
-        if (Objects.isNull(inventoryResponseArray)) {
+        if (Objects.isNull(inventoryResponseArray) || inventoryResponseArray.length <= 0) {
             throw new IllegalArgumentException("No items with sku codes provided found");
         }
 
