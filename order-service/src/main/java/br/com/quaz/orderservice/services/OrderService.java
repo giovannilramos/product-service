@@ -1,10 +1,10 @@
 package br.com.quaz.orderservice.services;
 
 import br.com.quaz.orderservice.dto.InventoryResponse;
-import br.com.quaz.orderservice.entities.OrderLineItems;
 import br.com.quaz.orderservice.dto.OrderRequest;
 import br.com.quaz.orderservice.dto.OrderResponse;
 import br.com.quaz.orderservice.entities.Order;
+import br.com.quaz.orderservice.entities.OrderLineItems;
 import br.com.quaz.orderservice.repositories.OrderRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Value;
@@ -49,7 +49,7 @@ public class OrderService {
                 .bodyToMono(InventoryResponse[].class)
                 .block();
 
-        if (Objects.isNull(inventoryResponseArray) || inventoryResponseArray.length <= 0) {
+        if (Objects.isNull(inventoryResponseArray) || inventoryResponseArray.length == 0) {
             throw new IllegalArgumentException("No items with sku codes provided found");
         }
 
