@@ -16,9 +16,6 @@ spring:
 web-client:
   inventory-service:
     host: http://inventory-service/api/inventory
-logging:
-  pattern:
-    level: "[${spring.application.name:},%X{traceId:-},%X{spanId:-}]"
 
 server:
   port: 8081
@@ -39,12 +36,6 @@ management:
   endpoint:
     health:
       show-details: always
-  zipkin:
-    tracing:
-      endpoint: http://localhost:9411/zipkin/
-  tracing:
-    sampling:
-      probability: 1.0
 
 resilience4j:
   circuitbreaker:
@@ -62,7 +53,6 @@ resilience4j:
     instances:
       inventory:
         timeout-duration: 3s
-
   retry:
     instances:
       inventory:
