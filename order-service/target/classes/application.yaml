@@ -42,10 +42,10 @@ resilience4j:
     instances:
       inventory:
         registerHealthIndicator: true
-        event-consumer-buffer-size: 10
+        eventConsumerBufferSize: 10
         slidingWindowType: COUNT_BASED
-        slidingWindowSize: 5
-        failureRateThreshold: 50
+        slidingWindowSize: 10
+        failureRateThreshold: 60
         waitDurationInOpenState: 5s
         permittedNumberOfCallsInHalfOpenState: 3
         automaticTransitionFromOpenToHalfOpenEnabled: true
